@@ -12,7 +12,7 @@
     Power: Pin 14 for 12V+ and couple all GND
     TXD (and GND) to send from Txd 
 
-    Use a MAX232 to drive propper RS232-Level
+    Use a MAX232 to drive proper RS232-Level
 */
 
 
