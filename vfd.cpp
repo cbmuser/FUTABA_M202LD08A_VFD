@@ -31,10 +31,10 @@ void vfd::set_line_1(){
 
  
    vfdSerial.write(0x1B);
-   vfdSerial.write(0x10);        // set cursor msb
+   vfdSerial.write(0x10);        
    vfdSerial.write((byte)0x00);  
    vfdSerial.write(0x1B);
-   vfdSerial.write(0x13);        // set cursor lsb 
+   vfdSerial.write(0x13);         
    vfdSerial.write((byte)0x00);  
    delay(10);
 }
@@ -43,10 +43,10 @@ void vfd::set_line_1(){
 void vfd::set_line_2(){
   
   vfdSerial.write(0x1B);
-  vfdSerial.write(0x10);        // set cursor msb
+  vfdSerial.write(0x10);        
   vfdSerial.write((byte)0x00);  
   vfdSerial.write(0x1B);
-  vfdSerial.write(0x13);        // set cursor lsb 
+  vfdSerial.write(0x13);         
   vfdSerial.write((byte)0x14);  
   delay(10);
 }
